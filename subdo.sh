@@ -23,7 +23,7 @@ echo ''
 read -p "masfake-#" command
 if [ $command -eq 1 ];
 	then
-		data/ && sh mr_xid.sh && sh mr_xid.sh
+		data && sh mr_xid.sh && sh mr_xid.sh
 elif [ $command -eq 2 ];
 	then
 		cd data/ && chmod +x hello.sh && ./hello.sh
